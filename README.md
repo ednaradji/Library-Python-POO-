@@ -5,9 +5,9 @@ Pour le bon fonctionnement du package, il faut en premier lieu modifier le chemi
 Le nom du package est Package
 
 
-### Implémentation de modèle linéaire avec application des outils vus en cours.
+### Implémentation d'un modèle linéaire avec application des outils vus en cours (POO).
 
-L'un des principaux objectif de ce projet étant d'implémenter de bout en bout plusieurs outils afin d'utiliser les librairies NumPy et pandas le moins possible, certaines fonctions étaient primordiales pour le bon traitement de nos données.
+L'un des principaux objectif de ce projet étant d'implémenter de bout en bout plusieurs outils afin d'utiliser les librairies NumPy et Pandas le moins possible, certaines fonctions étaient primordiales pour le bon traitement de nos données.
 
 #### Fichier main
 
