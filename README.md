@@ -46,7 +46,7 @@ Pour lancer les tests unitaires
 - Un package **Package**
 - Un package **test**
 
-#### Fichier main
+#### I - Fichier main
 
 1- **La fonction lire :**
 
@@ -62,7 +62,7 @@ Le choix de convertir nos données en liste de liste s'explique par le fait que 
 3- On réalise enfin le test des outils implémentés sur nos données.
 
 
-#### Fichier mymodule1
+#### II - Fichier mymodule1
 
 L'implémentation de ce fichier découle du besoin de manipuler les données sans l'usage de librairies externes. Pour cela, il on a pensé à mettre en oeuvre une classe Matrix grâce aux outils de POO vus en cours. 
 
@@ -120,7 +120,7 @@ L'implémentation de ce fichier découle du besoin de manipuler les données san
 
 * **getligne**: cette méthode extrait une ligne de la matrice en paramètre. Elle prends en entrée un objet de type matrix, un entier correspondant au numéro de la ligne à extraire. Elle retourne une liste.
 
-#### Fichier mymodule2
+#### III - Fichier mymodule2
 
 Dans ce fichier, on va à présent implémenter les régressions (moindres carrée ordinaires et Ridge). On aura besoin de la librairie matplotlib pour la visualisation.
 
