@@ -161,12 +161,12 @@ On implémente ici l'estimateur de ridge. C'est une classe fille de LinearModel
 
 <font size=5> $\color{brown}{Le \space package \space \bf{test}}$ </font>
 
-Ce package testent les outils implémentés dans le dossier **Package**. Des tests unitaires basiques ont été écrits pour chaque fonction. 
+Ce package test les outils implémentés dans le dossier **Package**. Des tests unitaires basiques ont été écrits pour chaque fonction. 
 
 Pour tester les fonctions, taper la commande sur le terminale :
 
         pytest test
     
-Cette commande permet de tester toutes les fonctions commençant par test_ contenues dans le dossier test/ et test/test_myutils/.
+Cette commande permet de tester toutes les fonctions commençant par test_ contenues dans le dossier test/ .
 
   
