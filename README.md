@@ -48,7 +48,8 @@ Pour lancer les tests unitaires
 
 #### Fichier main
 
-1- **La fonction lire**
+1- **La fonction lire :**
+
 Cette fonction contenu dans le fichier main.py permet l'ouverture et la lecture des données. Le format initiale des donnée étant le CSV, il a fallu les importer sans l'utilisation de numpy et pandas.
 
 **Entrée** : le fichier à lire
