@@ -1,9 +1,23 @@
-###Important
+<font size=7> $\color{maroon}{Présentation \space générale}$ </font>
+
+Le nom du package est **Package**.
+
+Il s'inscrit dans un projet de l'UE Python supervisé par Baptiste Gregorutti. Ce projet vise à appliquer les outils vus pendant le cours de "Modèles Linéaires"" dirigé par Charlotte Dion. 
+
+<font size=3> $\color{orange}{Contraintes \space imposées :}$ </font>
+
+- Les librairies **sklearn** et **statsmodels** sont proscrites. 
+- les libraires **NumPy** et **Pandas** sont autorisées mais des points de bonus seront données si les outils implémentés ne les utilisent pas ou peu.
+- Des tests unitaires devront être écrits exécutés avec **pytest**.
+- La qualité du code devra être évaluée avec **pylint** et il faudra avoir une note au moins supérieure à 7/10.
+
+Au sein de ce package, seule la librairie **matplotlib** a été utilisée. Des tests unitaires basiques ont été écrits pour chaque fonction. Chaque fichier .py a eu une note supérieur à 7/10 avec **pylint** avec la commande :
+        
+        pylint *.py */*.py */*/*.py --max-line-length=150
+
+Les contraintes ont donc été respectées.
 
 Pour le bon fonctionnement du package, il faut en premier lieu modifier le chemin vers mymodule1 et module2 respectivement dans les fichiers test_module1 et test_module2
-
-Le nom du package est Package
-
 
 ### Implémentation d'un modèle linéaire avec application des outils vus en cours (POO).
 
