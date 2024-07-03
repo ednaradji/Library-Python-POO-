@@ -1,8 +1,10 @@
 <font size=7> $\color{maroon}{Présentation \space générale}$ </font>
 
+### Implémentation d'un modèle linéaire avec application des outils vus en cours (POO).
+
 Le nom du package est **Package**.
 
-Il s'inscrit dans un projet de l'UE Python supervisé par Baptiste Gregorutti. Ce projet vise à appliquer les outils vus pendant le cours de "Modèles Linéaires"" dirigé par Charlotte Dion. 
+Il s'inscrit dans un projet de l'UE Python supervisé par Baptiste Gregorutti. Ce projet vise à appliquer les outils vus pendant le cours de "Modèles Linéaires" dirigé par Charlotte Dion. 
 
 <font size=3> $\color{orange}{Contraintes \space imposées :}$ </font>
 
@@ -17,11 +19,32 @@ Au sein de ce package, seule la librairie **matplotlib** a été utilisée. Des 
 
 Les contraintes ont donc été respectées.
 
-Pour le bon fonctionnement du package, il faut en premier lieu modifier le chemin vers mymodule1 et module2 respectivement dans les fichiers test_module1 et test_module2
+<font size=7> $\color{maroon}{Commandes}$ </font>
 
-### Implémentation d'un modèle linéaire avec application des outils vus en cours (POO).
+Décompresser le fichier **Package-0.0.0.tar.gz**
+    
+        tar -xvzf Package-0.0.0.tar.gz
+    
+Puis installer le package **Package**
+    
+        python3 setup.py install
 
-L'un des principaux objectif de ce projet étant d'implémenter de bout en bout plusieurs outils afin d'utiliser les librairies NumPy et Pandas le moins possible, certaines fonctions étaient primordiales pour le bon traitement de nos données.
+Enfin, se placer dans le dossier **Package**
+
+        cd Package-0.0.0
+
+
+Pour lancer les tests unitaires
+
+        pytest test
+
+<font size=7> $\color{maroon}{Contenu \space du \space package}$ </font>
+
+- Deux fichiers **setup.py** et **setup.cfg** : essentiels pour configurer et installer proprement le package **Package**
+- Ce fichier **README.md** : permet à l'utilisateur de comprendre le fonctionnement du package **Package**
+- Un fichier **fuel2001.txt** : jeu de données inclu dans le package permettant de tester toutes les fonctionnalités du package 
+- Un package **Package**
+- Un package **test**
 
 #### Fichier main
 
